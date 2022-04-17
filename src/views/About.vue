@@ -23,6 +23,7 @@
 <script>
 import carousel from "../components/carousel.vue";
 import Footer from "../components/footer.vue";
+
 export default {
   components: { carousel, Footer },
 };
