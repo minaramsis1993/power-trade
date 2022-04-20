@@ -3,24 +3,24 @@
     <carousel />
     <div class="container content my-3">
       <div class="row">
-        <div class="col mt-4">
+        <div class="col-md-6 col-12">
           <div class="item">
             <div class="title mb-1">Domestic sales contact</div>
             <div class="email">E-Mail : sales@deminasseal.com</div>
             <div class="tel-fax">TEL / FAX : +44 0208799 7584</div>
           </div>
-          <div class="item mt-4">
+          <div class="item my-2">
             <div class="title mb-1">International sales contact</div>
             <div class="email">E-Mail : sales@deminasseal.com</div>
             <div class="tel-fax">TEL / FAX : +44 0208799 7584</div>
           </div>
-          <div class="item mt-4">
+          <div class="item my-2">
             <div class="title mb-1">Technical Department</div>
             <div class="email">E-Mail : technical@deminasseal.com</div>
             <div class="tel-fax">TEL / FAX : +44 0208799 7584</div>
           </div>
         </div>
-        <div class="col">
+        <div class="col-md-6 col-12">
           <img
             src="https://deminasseal.com/images/contact.jpg"
             alt="Contact us"
@@ -56,5 +56,6 @@ h1 {
 
 img {
   border: 2rem solid;
+  width: 100%;
 }
 </style>

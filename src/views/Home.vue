@@ -25,7 +25,7 @@
     </div>
     <div class="intro container my-2">
       <div class="row">
-        <div class="col">
+        <div class="col-md-6 col-12">
           <h2>Welcome to our Company</h2>
           <p>
             We design, manufacture and supply a wide range of essential sealing
@@ -57,7 +57,7 @@
             costs and providing the best possible price for the customer.
           </p>
         </div>
-        <div class="col products-grid-wrapper">
+        <div class="col-md-6 col-12 products-grid-wrapper">
           <div class="products-grid">
             <div class="grid-item">
               <div class="img-wrapper">
@@ -120,6 +120,7 @@ export default {
   font-size: 1.35rem;
   margin-top: 0.6rem;
 }
+
 .departments .dep .contact-txt {
   color: #06a2d3;
   font-weight: bold;
@@ -162,5 +163,25 @@ export default {
   font-weight: bold;
   margin-top: 0.7rem;
   justify-self: flex-start;
+}
+
+@media (max-width: 768px) {
+  .departments {
+    display: block;
+  }
+
+  .departments .dep {
+    border-right: none;
+    margin-top: 1rem;
+  }
+
+  .departments .dep h2.title {
+    font-size: 1.15rem;
+    margin: 0.1rem 0;
+  }
+
+  .products-grid {
+    grid-template-columns: 1fr;
+  }
 }
 </style>

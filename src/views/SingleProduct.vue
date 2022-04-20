@@ -43,4 +43,7 @@ export default {
 </script>
 
 <style scoped>
+.img-wrapper img {
+  width: 100%;
+}
 </style>
