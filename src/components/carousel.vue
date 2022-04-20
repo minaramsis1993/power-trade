@@ -32,25 +32,7 @@
         img-height="300"
         img-src="https://deminasseal.com/images/3.jpg"
       ></b-carousel-slide>
-
-      <!-- Note the classes .d-block and .img-fluid to prevent browser default image alignment -->
-      <!-- <b-carousel-slide>
-        <template #img>
-          <img
-            class="d-block img-fluid w-100"
-            width="1024"
-            height="300"
-            src="https://picsum.photos/1024/480/?image=55"
-            alt="image slot"
-          />
-        </template>
-      </b-carousel-slide> -->
     </b-carousel>
-
-    <!-- <p class="mt-4">
-      Slide #: {{ slide }}<br />
-      Sliding: {{ sliding }}
-    </p> -->
   </div>
 </template>
 
